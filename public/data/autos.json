@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "marca": "Renault",
+    "modelo": "Sandero Stepway",
+    "anio": 2014,
+    "combustible": "Nafta y GNC",
+    "imagen": "/renaultsandero.jpg",
+    "images": [
+      "/autos/renaultsandero.jpg",
+      "/autos/renaultsandero-frente.jpg",
+      "/autos/renaultsandero-costad.jpg",
+      "/autos/renaultsandero-costado.jpg",
+      "/autos/renaultsandero-interior.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "marca": "Renault",
+    "modelo": "Duster",
+    "anio": 2020,
+    "combustible": "Nafta",
+    "imagen": "/renaultduster.jpg",
+    "images": [
+      "/autos/renaultduster.jpg",
+      "/autos/renaultduster-frente.jpg",
+      "/autos/renaultduster-atras.jpg",
+      "/autos/renaultduster-costado.jpg",
+      "/autos/renaultduster-interior.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "marca": "Volkswagen",
+    "modelo": "Cady",
+    "anio": 1999,
+    "combustible": "Diesel",
+    "imagen": "/volkswagencady.jpg",
+    "images": [
+      "/autos/volkswagencady.jpg",
+      "/autos/volkswagencady-costado.jpg"
+      
+    ]
+  },
+  {
+    "id": 4,
+    "marca": "Peugeot",
+    "modelo": "208",
+    "anio": 2014,
+    "combustible": "Nafta",
+    "imagen": "/peugeot208.jpg",
+    "images": [
+      "/autos/peugeot208-atras.jpg",
+      "/autos/peugeot208-costado.jpg"
+      
+  ]
+  },
+  {
+    "id": 5,
+    "marca": "Chevrolet",
+    "modelo": "S10",
+    "anio": 2006,
+    "combustible": "Diesel",
+    "imagen": "/chevrolets10.jpg",
+    "images": [
+      "/autos/chevrolets10.jpg",
+      "/autos/chevrolets10-costado.jpg",
+      "/autos/chevrolets10-costadod.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "anio": 2020,
+    "combustible": "Nafta y GNC",
+    "imagen": "/fiatargo.jpg",
+    "images": [
+      "/autos/fiatargo.jpg",
+      "/autos/fiatargo-atras.jpg",
+      "/autos/fiatargo-costado.jpg"
+     
+    ]
+  },
+ {
+    "id": 5,
+    "marca": "Chevrolet",
+    "modelo": "Montana",
+    "anio": 2011,
+    "combustible": "Nafta",
+    "imagen": "/chevroletmontana.jpg",
+    "images": [
+      "/autos/chevroletmontana.jpg",
+      "/autos/chevroletmontana-costado.jpg"
+    
+    ]
+  },
+  {
+    "id": 8,
+    "marca": "Peugeot",
+    "modelo": "208",
+    "anio": 2014,
+    "combustible": "Nafta",
+    "imagen": "/peugeot208.jpg",
+    "images": [
+      "/autos/peugeot208.jpg",
+      "/autos/peugeot208-atras.jpg",
+      "/autos/peugeot208-costado.jpg"
+     
+    ]
+  }
+]
