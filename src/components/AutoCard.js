@@ -36,7 +36,7 @@ export default function AutoCard({ auto }) {
           <Card.Text>
             Año: {auto.anio} <br />
             Combustible: {auto.combustible} <br />
-            Kilometraje: {auto.kilometraje}
+            
           </Card.Text>
           <Button variant="primary" href="/contacto" className="w-100">
             Consultar

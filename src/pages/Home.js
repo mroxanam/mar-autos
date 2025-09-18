@@ -11,8 +11,8 @@ function Home() {
       />
 
       {/* Texto de bienvenida */}
-      <h2 className="mt-4">Bienvenido a Mar Autos 🚗</h2>
-      <p>La mejor selección de autos nuevos y usados en un solo lugar.</p>
+      <h2 className="mt-4">Bienvenido a Mar Autos </h2>
+      <p>La mejor selección de autos usados en un solo lugar.</p>
     </div>
   );
 }
