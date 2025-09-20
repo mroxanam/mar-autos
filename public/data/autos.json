@@ -69,7 +69,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "marca": "Fiat",
     "modelo": "Argo",
     "anio": 2020,
@@ -83,7 +83,7 @@
     ]
   },
  {
-    "id": 5,
+    "id": 7,
     "marca": "Chevrolet",
     "modelo": "Montana",
     "anio": 2011,
@@ -94,19 +94,7 @@
       "/autos/chevroletmontana-costado.jpg"
     
     ]
-  },
-  {
-    "id": 8,
-    "marca": "Peugeot",
-    "modelo": "208",
-    "anio": 2014,
-    "combustible": "Nafta",
-    "imagen": "/peugeot208.jpg",
-    "images": [
-      "/autos/peugeot208.jpg",
-      "/autos/peugeot208-atras.jpg",
-      "/autos/peugeot208-costado.jpg"
-     
-    ]
   }
+  
+  
 ]

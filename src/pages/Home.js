@@ -2,12 +2,12 @@ import autopantalla from "../assets/images/autopantalla.png";
 
 function Home() {
   return (
-    <div className="text-center mt-4">
+    <div className="d-flex flex-column justify-content-center align-items-center text-center vh-100">
       {/* Imagen de portada animada */}
       <img
         src={autopantalla}
         alt="Auto principal"
-        className="img-fluid rounded portada-img"
+        className="img-fluid rounded mx-auto d-block portada-img"
       />
 
       {/* Texto de bienvenida */}
