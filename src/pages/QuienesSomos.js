@@ -7,7 +7,7 @@ function QuienesSomos() {
       <p>
         En <strong>Mar Autos</strong> Nos dedicamos a ofrecer los mejores vehículos
         usados. Nuestro compromiso es brindarte confianza, calidad y
-        asesoramiento personalizado.
+        asesoramiento personalizado. ¡¡¡¡NO DUDES EN CONSULTARNOS!!!!
       </p>
     </Container>
   );
