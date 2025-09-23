@@ -45,7 +45,7 @@
   {
     "id": 4,
     "marca": "Peugeot",
-    "modelo": "208",
+    "modelo": "208 -VENDIDO-",
     "anio": 2014,
     "combustible": "Nafta",
     "imagen": "/peugeot208.jpg",
@@ -94,7 +94,20 @@
       "/autos/chevroletmontana-costado.jpg"
     
     ]
+  },
+  {
+   
+    "id": 8,
+    "marca": "Peugeot",
+    "modelo": "408 Triptonic",
+    "anio": 2012,
+    "combustible": "Nafta",
+    "imagen": "/peugeot408-costadoI.jpg",
+    "images": [
+      "/autos/peugeot408-atras.jpg",
+      "/autos/peugeot408-costado.jpg"
+      
+  ]
   }
-  
   
 ]

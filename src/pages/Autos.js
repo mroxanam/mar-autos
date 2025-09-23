@@ -14,7 +14,7 @@ function Autos() {
 
   return (
     <Container className="my-4">
-      <h2 className="text-center mb-4">Autos Disponibles</h2>
+      <h2 className="text-center mb-4">Autos-Descripcion en cada ficha</h2>
       <Row className="justify-content-center">
         {autos.map((auto) => (
           <Col key={auto.id} xs={12} sm={6} md={4} lg={3} className="d-flex justify-content-center">
