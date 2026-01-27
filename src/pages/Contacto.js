@@ -3,7 +3,7 @@ import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 function Contacto() {
   const whatsappNumber = "543548591003"; // tu número completo
-  const email = "marauto@gmail.com";
+  const email = "automotoresramos@gmail.com";
 
   return (
     <Container className="mt-4 text-center">

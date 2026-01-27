@@ -2,59 +2,63 @@
 import { useState } from "react";
 import { Card, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom"; // Importante para no recargar la página
 import Lightbox from "yet-another-react-lightbox";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-import "../App.css"; // importa estilos de auto-card
 
 export default function AutoCard({ auto }) {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
-  const images = auto.images || [`/autos/${auto.imagen}`];
+  // Verificamos si existe auto.images (array) o usamos la imagen única
+  const images = auto.images && auto.images.length > 0
+    ? auto.images
+    : [auto.imagen]; // Asegúrate que en el JSON la ruta sea directa (ej: "/images/auto1.jpg")
 
   return (
     <>
       <motion.div
         whileHover={{
-          scale: 1.03,
-          boxShadow:
-            "12px 12px 24px rgba(0,0,0,0.2), -12px -12px 24px rgba(255,255,255,0.7)"
+          y: -10, // Efecto de elevación
+          scale: 1.02,
         }}
-        transition={{ duration: 0.3 }}
+
         className="auto-card"
+        style={{ cursor: "pointer" }}
       >
         <Card.Img
           variant="top"
           src={images[0]}
           alt={auto.modelo}
           onClick={() => setOpen(true)}
-        />
+          style={{ height: "200px", objectFit: "cover" }}
+          />
         <Card.Body>
-          <Card.Title>{auto.marca} {auto.modelo}</Card.Title>
+          <Card.Title className="fw-bold">{auto.marca} {auto.modelo}</Card.Title>
           <Card.Text>
-            Año: {auto.anio} <br />
-            Combustible: {auto.combustible} <br />
-            
+            <strong>Año:</strong> {auto.anio} <br />
+            <strong>Combustible:</strong> {auto.combustible} <br />
+            <span className="text-primary fw-bold fs-5">${auto.precio?.toLocaleString()}</span>
           </Card.Text>
-          <Button variant="primary" href="/contacto" className="w-100">
+
+          {/* Usamos Link en lugar de href para SPA */}
+          <Button as={Link} to="/contacto" variant="primary" className="w-100 shadow-sm">
             Consultar
           </Button>
         </Card.Body>
       </motion.div>
 
-      {open && (
-        <Lightbox
-          open={open}
-          index={index}
-          close={() => setOpen(false)}
-          slides={images.map((img) => ({ src: img }))}
-          plugins={[Thumbnails]}
-          thumbnails={{ vignette: true }}
-          on={{ slideChange: (idx) => setIndex(idx) }}
-        />
-      )}
+      {/* El Lightbox solo se renderiza si hay imágenes y está abierto */}
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        index={index}
+        slides={images.map((src) => ({ src }))}
+        plugins={[Thumbnails]}
+        on={{ view: ({ index }) => setIndex(index) }} // Actualiza el índice correctamente
+      />
     </>
   );
 }

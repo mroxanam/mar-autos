@@ -39,7 +39,6 @@
     "images": [
       "/autos/volkswagencady.jpg",
       "/autos/volkswagencady-costado.jpg"
-      
     ]
   },
   {
@@ -52,8 +51,7 @@
     "images": [
       "/autos/peugeot208-atras.jpg",
       "/autos/peugeot208-costado.jpg"
-      
-  ]
+    ]
   },
   {
     "id": 5,
@@ -79,10 +77,9 @@
       "/autos/fiatargo.jpg",
       "/autos/fiatargo-atras.jpg",
       "/autos/fiatargo-costado.jpg"
-     
     ]
   },
- {
+  {
     "id": 7,
     "marca": "Chevrolet",
     "modelo": "Montana",
@@ -92,11 +89,9 @@
     "images": [
       "/autos/chevroletmontana.jpg",
       "/autos/chevroletmontana-costado.jpg"
-    
     ]
   },
   {
-   
     "id": 8,
     "marca": "Peugeot",
     "modelo": "408 Triptonic",
@@ -106,8 +101,18 @@
     "images": [
       "/autos/peugeot408-atras.jpg",
       "/autos/peugeot408-costado.jpg"
-      
-  ]
+    ]
+  },
+  {
+    "id": 9,
+    "marca": "Ford",
+    "modelo": "Ka",
+    "anio": 2008,
+    "combustible": "Nafta",
+    "imagen": "/FordKa-frente.jpg",
+    "images": [
+      "/autos/FordKa-costado.jpg",
+      "/autos/FordKa-interior.jpg"
+    ]
   }
-  
 ]
