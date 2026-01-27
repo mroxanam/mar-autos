@@ -1,39 +1,92 @@
-import { Container, Button } from "react-bootstrap";
-import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { Container, Button, Badge } from "react-bootstrap";
+import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTiktok, FaExternalLinkAlt } from "react-icons/fa";
 
 function Contacto() {
-  const whatsappNumber = "543548591003"; // tu número completo
+  const whatsappNumber = "543548591003"; 
+  const whatsappVisible = "03548 15-591003";
   const email = "automotoresramos@gmail.com";
+  
+  // Agrega aquí tus enlaces reales
+  const facebookUrl = "https://facebook.com";
+  const instagramUrl = "https://instagram.com";
+  const tiktokUrl = "https://tiktok.com";
 
   return (
-    <Container className="mt-4 text-center">
-      <h2 className="mb-3">Contacto</h2>
-      <p className="mb-4">Elegí cómo querés comunicarte con nosotros:</p>
+    <Container className="mt-5 text-center mb-5">
+      <h2 className="fw-bold mb-3">Contacto y Redes</h2>
+      <p className="text-muted mb-4">Seguinos y consultanos por cualquier medio:</p>
 
-      <div className="d-flex flex-column gap-3 mx-auto" style={{ maxWidth: "300px" }}>
-        {/* Botón WhatsApp */}
+      <div className="d-flex flex-column gap-3 mx-auto" style={{ maxWidth: "350px" }}>
+        
+        {/* WHATSAPP */}
+        <div className="mb-2">
+          <Button
+            as="a"
+            href={`https://wa.me{whatsappNumber}?text=Hola%20Marcelo,%20quiero%20consultar%20sobre%20un%20vehículo`}
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="success"
+            className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold"
+            style={{ backgroundColor: "#25D366", border: "none" }}
+          >
+            <FaWhatsapp className="me-2" size={24} /> WhatsApp
+          </Button>
+          <div className="small text-muted mt-1">{whatsappVisible}</div>
+        </div>
+
+        {/* INSTAGRAM */}
         <Button
           as="a"
-          href={`https://wa.me/${whatsappNumber}?text=HolaMarcelo,%20quiero%20consultar%20sobre%20un%20vehículo`}
+          href={instagramUrl}
           target="_blank"
           rel="noopener noreferrer"
-          variant="light"
-          className="w-100 d-flex align-items-center justify-content-center border shadow-sm rounded-pill text-decoration-none"
+          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold border-0 text-white"
+          style={{ background: "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)" }}
         >
-          <FaWhatsapp style={{ marginRight: "8px", fontSize: "1.5rem", color: "#25D366" }} />
-          WhatsApp
+          <FaInstagram className="me-2" size={24} /> Instagram
         </Button>
 
-        {/* Botón Correo */}
+        {/* FACEBOOK */}
         <Button
           as="a"
-          href={`mailto:${email}?subject=Consulta%20sobre%20vehículo&body=Hola,%20quiero%20consultar%20sobre%20un%20vehículo`}
-          variant="light"
-          className="w-100 d-flex align-items-center justify-content-center border shadow-sm rounded-pill text-decoration-none"
+          href={facebookUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ backgroundColor: "#1877F2", border: "none" }}
+          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold text-white"
         >
-          <FaEnvelope style={{ marginRight: "8px", fontSize: "1.5rem", color: "#0d6efd" }} />
-          Email
+          <FaFacebook className="me-2" size={24} /> Facebook
         </Button>
+
+        {/* TIKTOK */}
+        <Button
+          as="a"
+          href={tiktokUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="dark"
+          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold"
+        >
+          <FaTiktok className="me-2" size={24} /> TikTok
+        </Button>
+
+        {/* EMAIL */}
+        <Button
+          as="a"
+          href={`mailto:${email}`}
+          variant="outline-secondary"
+          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold"
+        >
+          <FaEnvelope className="me-2" size={20} /> Email
+        </Button>
+
+      </div>
+
+      <div className="mt-5 p-3 bg-light rounded border">
+        <Badge bg="info" text="dark" className="mb-2">Info</Badge>
+        <p className="small mb-0 text-secondary">
+          Hacé clic para abrir directamente en tu celular o computadora.
+        </p>
       </div>
     </Container>
   );
