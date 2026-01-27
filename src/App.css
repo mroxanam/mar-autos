@@ -44,26 +44,12 @@
   box-shadow: 12px 12px 25px #bebebe, -12px -12px 25px #ffffff;
 }
 
-.auto-card:hover img {
-  transform: scale(1.05);
-}
-
 /* ------------------ Navbar Lateral (Offcanvas) ------------------ */
 .offcanvas-custom {
   background: #1a1a1a !important;
   color: #fff;
   width: 80% !important;
   border-left: 4px solid #a71d1d;
-}
-
-.offcanvas-nav a {
-  color: #fff !important;
-  text-decoration: none;
-  display: block;
-  padding: 18px 20px;
-  font-size: 1.1rem;
-  transition: 0.3s;
-  border-bottom: 1px solid #333;
 }
 
 .offcanvas-nav a:hover {
@@ -74,7 +60,7 @@
 
 /* ------------------ Botones y Redes Sociales ------------------ */
 
-/* Botón VER CATÁLOGO - Rojo elegante de Ramos [cite: 4] */
+/* Botón VER CATÁLOGO - Rojo Ramos */
 .btn-primary {
   background: linear-gradient(135deg, #a71d1d 0%, #7a1515 100%) !important;
   border: none !important;
@@ -83,63 +69,42 @@
   font-weight: bold;
   color: white !important;
   box-shadow: 0 4px 12px rgba(167, 29, 29, 0.3);
-  transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(167, 29, 29, 0.4);
-}
-
-/* WHATSAPP - Verde oficial [cite: 9, 10] */
-.btn-whatsapp {
+/* WHATSAPP - Verde oficial (Fuerza de color) */
+.btn-whatsapp, .btn-whatsapp:hover {
   background-color: #25D366 !important;
+  background-image: none !important; 
   border: none !important;
-  border-radius: 50px !important;
-  padding: 10px 25px !important;
   color: white !important;
-  font-weight: bold;
+  border-radius: 50px !important;
 }
 
-/* INSTAGRAM - Bordó elegante  */
-.btn-instagram {
-  background-color: #8a1a1a !important; 
+/* INSTAGRAM - Bordó elegante (Fuerza de color) */
+.btn-instagram, .btn-instagram:hover {
+  background-color: #8a1a1a !important;
+  background-image: none !important;
   border: none !important;
-  border-radius: 50px !important;
-  padding: 10px 25px !important;
   color: white !important;
-  font-weight: bold;
+  border-radius: 50px !important;
 }
 
-/* FACEBOOK - Azul clásico oficial  */
-.btn-facebook {
+/* FACEBOOK - Azul oficial (Fuerza de color) */
+.btn-facebook, .btn-facebook:hover {
   background-color: #1877F2 !important;
+  background-image: none !important;
   border: none !important;
-  border-radius: 50px !important;
-  padding: 10px 25px !important;
   color: white !important;
-  font-weight: bold;
-  transition: background 0.3s;
+  border-radius: 50px !important;
 }
 
-.btn-facebook:hover {
-  background-color: #145dbf !important;
-}
-
-/* TIK TOK - Negro sólido  */
-.btn-tiktok {
+/* TIKTOK - Negro sólido (Fuerza de color) */
+.btn-tiktok, .btn-tiktok:hover {
   background-color: #010101 !important;
+  background-image: none !important;
   border: none !important;
-  border-radius: 50px !important;
-  padding: 10px 25px !important;
   color: white !important;
-  font-weight: bold;
-}
-
-/* ------------------ Home y Otros ------------------ */
-.portada-img {
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 50px !important;
 }
 
 /* ------------------ Footer ------------------ */
@@ -148,24 +113,12 @@
   color: #999;
   padding: 30px;
   text-align: center;
-  font-size: 0.9rem;
 }
 
 /* ------------------ RESPONSIVIDAD ------------------ */
 @media (max-width: 768px) {
-  .auto-card {
-    width: 90%;
-    margin-bottom: 30px;
-  }
-
-  .portada-img {
-    max-height: 300px;
-    width: 100%;
-    object-fit: cover;
-  }
-
   h1.display-4 {
-    font-size: 1.8rem; /* Título principal [cite: 2] */
+    font-size: 1.8rem;
     font-weight: 800;
   }
 }
