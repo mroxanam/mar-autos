@@ -1,21 +1,21 @@
 import autopantalla from "../assets/images/autopantalla.png";
-import "./Home.css"; 
+import { Link } from "react-router-dom"; // Importamos Link para que no recargue la página
 
 function Home() {
   return (
-    
     <div className="container d-flex flex-column justify-content-center align-items-center text-center min-vh-100">
       
-      {/* Contenedor para limitar el tamaño de la imagen */}
+      {/* Contenedor de la imagen */}
       <div style={{ maxWidth: "600px" }}>
         <img
           src={autopantalla}
           alt="Auto de exhibición Mar Autos"
+          // Mantenemos tus clases: portada-img es la que definimos en App.css
           className="img-fluid rounded mx-auto d-block portada-img shadow-lg"
         />
       </div>
 
-      {/* Texto de bienvenida con tipografía más destacada */}
+      {/* Texto de bienvenida */}
       <h1 className="display-4 mt-4 fw-bold text-dark">
         Bienvenido a Mar Autos
       </h1>
@@ -23,10 +23,10 @@ function Home() {
         La mejor selección de autos usados en un solo lugar.
       </p>
       
-      {/* Sugerencia: Un botón de acción para mejorar la navegación */}
-      <a href="/autos" className="btn btn-primary btn-lg mt-3 px-5 shadow">
+      {/* CORRECCIÓN: Cambiamos <a> por <Link> para que navegue rápido en el celu */}
+      <Link to="/autos" className="btn btn-primary btn-lg mt-3 px-5 shadow">
         Ver Catálogo
-      </a>
+      </Link>
     </div>
   );
 }
