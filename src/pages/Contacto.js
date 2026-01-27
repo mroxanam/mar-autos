@@ -6,7 +6,6 @@ function Contacto() {
   const whatsappVisible = "03548 15-591003";
   const email = "automotoresramos@gmail.com";
   
-  // Agrega aquí tus enlaces reales
   const facebookUrl = "https://facebook.com";
   const instagramUrl = "https://instagram.com";
   const tiktokUrl = "https://tiktok.com";
@@ -18,11 +17,11 @@ function Contacto() {
 
       <div className="d-flex flex-column gap-3 mx-auto" style={{ maxWidth: "350px" }}>
         
-        {/* WHATSAPP */}
+        {/* WHATSAPP - CORREGIDO EL TEMPLATE STRING */}
         <div className="mb-2">
           <Button
             as="a"
-            href={`https://wa.me{whatsappNumber}?text=Hola%20Marcelo,%20quiero%20consultar%20sobre%20un%20vehículo`}
+            href={`https://wa.me/${whatsappNumber}?text=Hola%20Marcelo,%20quiero%20consultar%20sobre%20un%20vehículo`}
             target="_blank"
             rel="noopener noreferrer"
             variant="success"
