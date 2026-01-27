@@ -1,71 +1,67 @@
-# Getting Started with Create React App
+# 🚗 Mar-Autos (Automotores Ramos)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web moderna para la exhibición de autos usados, diseñada para ser rápida, visual y totalmente responsiva.
 
-Available Scripts
+**🌐 Sitio Web en Vivo:** [https://mar-autos.vercel.app](https://mar-autos.vercel.app)
 
-In the project directory, you can run:
+---
 
- `npm start`
+## 🛠️ Cómo se creó este proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+El proyecto fue inicializado en **2026** utilizando herramientas estándar de la industria para garantizar estabilidad y rendimiento.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Requisitos Previos
+Para trabajar en este proyecto, necesitas tener instalado:
+* [Node.js](https://nodejs.org) (Versión 18 o superior).
+* [Git](https://git-scm.com) (Para el control de versiones y despliegue).
 
- `npm test`
-esta en vergel para modificar hacer cambios hacerlo y realizar cambios subir a repositorio y se va a reflejar en vergel
+### 2. Comando de Creación Inicial
+La base del proyecto se generó con el siguiente comando:
+```bash
+npx create-react-app mar-autos
+Usa el código con precaución.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Instalación de Dependencias Adicionales
+Una vez creada la base, se instalaron las librerías necesarias para el diseño y funcionalidad:
+bash
+npm install bootstrap react-bootstrap react-icons react-router-dom framer-motion yet-another-react-lightbox react-transition-group
+Usa el código con precaución.
 
-`npm run build`
+🚀 Comandos de Ejecución
+Para Desarrollo Local
+Si quieres ver los cambios mientras programas:
+bash
+npm start
+Usa el código con precaución.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La app se abrirá en http://localhost:3000.
+Para Producción (Build)
+Antes de subir a cualquier servidor manual, se genera la versión optimizada con:
+bash
+npm run build
+Usa el código con precaución.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔄 Flujo de Trabajo y Actualización (Vercel)
+El proyecto está configurado con Integración Continua. Esto significa que Vercel vigila tu repositorio de GitHub y actualiza la web automáticamente cuando detecta un cambio.
+Pasos para actualizar la web:
+Modifica el código o las fotos (Carpeta src para código, carpeta public para imágenes).
+Sube los cambios:
+bash
+git add .
+git commit -m "Descripción del cambio realizado"
+git push origin main
+Usa el código con precaución.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
- `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
- Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
- Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
- Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
- Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
- Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
- Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
- `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📸 Notas sobre Archivos y Rutas
+Para evitar errores en la visualización de fotos en Vercel:
+Ubicación: Las fotos de los vehículos están en public/autos/.
+Case Sensitivity: El servidor de Vercel es sensible a mayúsculas. Asegúrate de que si el archivo es .jpg, no pongas .JPG o .jpeg en el código.
+Espacios: Nunca uses espacios en los nombres de archivos (Ejemplo: usa ford-ka.jpg en lugar de ford ka .jpg).
+Referencia en React: Siempre usa la ruta absoluta: <img src="/autos/foto.jpg" />.
+📋 Tecnologías Principales (Stack)
+React 18: Librería principal de UI.
+Bootstrap 5: Sistema de grillas y componentes visuales.
+Framer Motion: Animaciones de entrada y transiciones suaves.
+React Router Dom: Gestión de navegación interna sin recargar la página.
+Documentación actualizada: Enero 2026
+{content: }
