@@ -72,9 +72,9 @@
   padding-left: 30px;
 }
 
-/* ------------------ Botones y Home ------------------ */
+/* ------------------ Botones y Redes Sociales ------------------ */
 
-/* Botón VER CATÁLOGO (Rojo elegante de Ramos) */
+/* Botón VER CATÁLOGO - Rojo elegante de Ramos [cite: 4] */
 .btn-primary {
   background: linear-gradient(135deg, #a71d1d 0%, #7a1515 100%) !important;
   border: none !important;
@@ -91,7 +91,27 @@
   box-shadow: 0 6px 18px rgba(167, 29, 29, 0.4);
 }
 
-/* Botón FACEBOOK (Azul clásico) */
+/* WHATSAPP - Verde oficial [cite: 9, 10] */
+.btn-whatsapp {
+  background-color: #25D366 !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 10px 25px !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+/* INSTAGRAM - Bordó elegante  */
+.btn-instagram {
+  background-color: #8a1a1a !important; 
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 10px 25px !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+/* FACEBOOK - Azul clásico oficial  */
 .btn-facebook {
   background-color: #1877F2 !important;
   border: none !important;
@@ -106,6 +126,17 @@
   background-color: #145dbf !important;
 }
 
+/* TIK TOK - Negro sólido  */
+.btn-tiktok {
+  background-color: #010101 !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 10px 25px !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+/* ------------------ Home y Otros ------------------ */
 .portada-img {
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -134,7 +165,7 @@
   }
 
   h1.display-4 {
-    font-size: 1.8rem;
+    font-size: 1.8rem; /* Título principal [cite: 2] */
     font-weight: 800;
   }
 }

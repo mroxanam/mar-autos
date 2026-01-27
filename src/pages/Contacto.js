@@ -2,8 +2,8 @@ import { Container, Button, Badge } from "react-bootstrap";
 import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 function Contacto() {
-  const whatsappNumber = "5493548591003"; 
-  const whatsappVisible = "03548 15-591003";
+  const whatsappNumber = "5493548591003"; // 
+  const whatsappVisible = "03548 15-591003"; // 
   const email = "automotoresramos@gmail.com";
   
   const facebookUrl = "https://facebook.com";
@@ -17,16 +17,14 @@ function Contacto() {
 
       <div className="d-flex flex-column gap-3 mx-auto" style={{ maxWidth: "350px" }}>
         
-        {/* WHATSAPP - CORREGIDO EL TEMPLATE STRING */}
+        {/* WHATSAPP */}
         <div className="mb-2">
           <Button
             as="a"
             href={`https://wa.me/${whatsappNumber}?text=Hola%20Marcelo,%20quiero%20consultar%20sobre%20un%20vehículo`}
             target="_blank"
             rel="noopener noreferrer"
-            variant="success"
-            className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold"
-            style={{ backgroundColor: "#25D366", border: "none" }}
+            className="btn-whatsapp w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold"
           >
             <FaWhatsapp className="me-2" size={24} /> WhatsApp
           </Button>
@@ -39,8 +37,7 @@ function Contacto() {
           href={instagramUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold border-0 text-white"
-          style={{ background: "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)" }}
+          className="btn-instagram w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold border-0 text-white"
         >
           <FaInstagram className="me-2" size={24} /> Instagram
         </Button>
@@ -51,8 +48,7 @@ function Contacto() {
           href={facebookUrl}
           target="_blank"
           rel="noopener noreferrer"
-          style={{ backgroundColor: "#1877F2", border: "none" }}
-          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold text-white"
+          className="btn-facebook w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold text-white"
         >
           <FaFacebook className="me-2" size={24} /> Facebook
         </Button>
@@ -63,8 +59,7 @@ function Contacto() {
           href={tiktokUrl}
           target="_blank"
           rel="noopener noreferrer"
-          variant="dark"
-          className="w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold"
+          className="btn-tiktok w-100 d-flex align-items-center justify-content-center shadow-sm rounded-pill py-2 fw-bold text-white"
         >
           <FaTiktok className="me-2" size={24} /> TikTok
         </Button>
@@ -84,7 +79,7 @@ function Contacto() {
       <div className="mt-5 p-3 bg-light rounded border">
         <Badge bg="info" text="dark" className="mb-2">Info</Badge>
         <p className="small mb-0 text-secondary">
-          Hacé clic para abrir directamente en tu celular o computadora.
+          Hacé clic para abrir directamente en tu celular o computadora. 
         </p>
       </div>
     </Container>
