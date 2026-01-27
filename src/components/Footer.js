@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer-dark mt-auto">
-      <p>© 2025 Mar Autos - Todos los derechos reservados</p>
+      <p>© 2025 Automotores Ramos - Todos los derechos reservados</p>
     </footer>
   );
 }

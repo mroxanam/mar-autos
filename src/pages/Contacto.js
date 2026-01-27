@@ -14,7 +14,7 @@ function Contacto() {
         {/* Botón WhatsApp */}
         <Button
           as="a"
-          href={`https://wa.me/${whatsappNumber}?text=Hola,%20quiero%20consultar%20sobre%20un%20vehículo`}
+          href={`https://wa.me/${whatsappNumber}?text=HolaMarcelo,%20quiero%20consultar%20sobre%20un%20vehículo`}
           target="_blank"
           rel="noopener noreferrer"
           variant="light"

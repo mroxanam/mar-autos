@@ -16,12 +16,12 @@ function NavbarMenu() {
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center text-white" onClick={handleClose}>
           <img
             src={logo}
-            alt="Mar Autos"
+            alt="Automotores Ramos Logo"
             width="50"
             height="50"
             className="d-inline-block align-top me-2"
           />
-          <span className="fw-bold">Mar Autos</span>
+          <span className="fw-bold">Automotores Ramos</span>
         </Navbar.Brand>
 
         {/* Botón hamburguesa */}
