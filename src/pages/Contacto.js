@@ -1,8 +1,8 @@
 import { Container, Button, Badge } from "react-bootstrap";
-import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTiktok, FaExternalLinkAlt } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 function Contacto() {
-  const whatsappNumber = "543548591003"; 
+  const whatsappNumber = "5493548591003"; 
   const whatsappVisible = "03548 15-591003";
   const email = "automotoresramos@gmail.com";
   
