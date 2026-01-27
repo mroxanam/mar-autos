@@ -17,7 +17,7 @@ function Home() {
 
       {/* Texto de bienvenida */}
       <h1 className="display-4 mt-4 fw-bold text-dark">
-        Bienvenido a Mar Autos
+        Bienvenido a Automotores Ramos
       </h1>
       <p className="lead text-secondary">
         La mejor selección de autos usados en un solo lugar.
