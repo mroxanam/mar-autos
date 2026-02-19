@@ -1,4 +1,5 @@
-/* ------------------ Navbar y Logo ------------------ */
+/* ================= NAVBAR ================= */
+
 .navbar {
   background-color: #000 !important;
   padding: 10px 0;
@@ -18,7 +19,8 @@
   margin-right: 12px;
 }
 
-/* ------------------ AutoCard (Neomorfismo) ------------------ */
+/* ================= AUTO CARD ================= */
+
 .auto-card {
   border: none;
   border-radius: 20px;
@@ -44,7 +46,8 @@
   box-shadow: 12px 12px 25px #bebebe, -12px -12px 25px #ffffff;
 }
 
-/* ------------------ Navbar Lateral (Offcanvas) ------------------ */
+/* ================= OFFCANVAS ================= */
+
 .offcanvas-custom {
   background: #1a1a1a !important;
   color: #fff;
@@ -56,58 +59,109 @@
   background: #252525;
   color: #a71d1d !important;
   padding-left: 30px;
+  transition: all 0.3s ease;
 }
 
-/* ------------------ Botones y Redes Sociales ------------------ */
+/* ================= BOTONES PRINCIPALES ================= */
 
-/* Botón VER CATÁLOGO - Rojo Ramos */
 .btn-primary {
   background: linear-gradient(135deg, #a71d1d 0%, #7a1515 100%) !important;
   border: none !important;
   border-radius: 50px !important;
   padding: 12px 30px !important;
-  font-weight: bold;
+  font-weight: 600;
   color: white !important;
-  box-shadow: 0 4px 12px rgba(167, 29, 29, 0.3);
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(167, 29, 29, 0.35);
+  position: relative;
+  overflow: hidden;
 }
 
-/* WHATSAPP - Verde oficial (Fuerza de color) */
-.btn-whatsapp, .btn-whatsapp:hover {
-  background-color: #25D366 !important;
-  background-image: none !important; 
+/* Hover */
+.btn-primary:hover {
+  background: linear-gradient(135deg, #c82323 0%, #8b1a1a 100%) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(167, 29, 29, 0.45);
+}
+
+/* Click efecto presionado */
+.btn-primary:active {
+  transform: translateY(0px);
+  box-shadow: 0 4px 10px rgba(167, 29, 29, 0.3);
+}
+
+/* Brillo suave */
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-primary:hover::after {
+  opacity: 1;
+}
+
+/* ================= BOTONES REDES SOCIALES ================= */
+
+.social-btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* WHATSAPP */
+.btn-whatsapp.btn,
+.btn-whatsapp.btn:hover {
+  background-color: #25d366 !important;
   border: none !important;
   color: white !important;
   border-radius: 50px !important;
 }
 
-/* INSTAGRAM - Bordó elegante (Fuerza de color) */
-.btn-instagram, .btn-instagram:hover {
-  background-color: #8a1a1a !important;
-  background-image: none !important;
-  border: none !important;
-  color: white !important;
-  border-radius: 50px !important;
-}
-
-/* FACEBOOK - Azul oficial (Fuerza de color) */
-.btn-facebook, .btn-facebook:hover {
+/* FACEBOOK */
+.btn-facebook.btn,
+.btn-facebook.btn:hover {
   background-color: #1877F2 !important;
-  background-image: none !important;
   border: none !important;
   color: white !important;
   border-radius: 50px !important;
 }
 
-/* TIKTOK - Negro sólido (Fuerza de color) */
-.btn-tiktok, .btn-tiktok:hover {
+/* INSTAGRAM */
+.btn-instagram.btn,
+.btn-instagram.btn:hover {
+  background: linear-gradient(
+    135deg,
+    #feda75 0%,
+    #fa7e1e 25%,
+    #d62976 55%,
+    #962fbf 78%,
+    #4f5bd5 100%
+  ) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 50px !important;
+}
+
+/* TIKTOK */
+.btn-tiktok.btn,
+.btn-tiktok.btn:hover {
   background-color: #010101 !important;
-  background-image: none !important;
   border: none !important;
   color: white !important;
   border-radius: 50px !important;
 }
 
-/* ------------------ Footer ------------------ */
+/* ================= FOOTER ================= */
+
 .footer-dark {
   background-color: #000;
   color: #999;
@@ -115,10 +169,40 @@
   text-align: center;
 }
 
-/* ------------------ RESPONSIVIDAD ------------------ */
+.small.text-muted {
+  font-weight: 500;
+}
+
+/* ================= TITULO BANNER ================= */
+
+.titulo-banner {
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* ================= RESPONSIVIDAD ================= */
+
 @media (max-width: 768px) {
+
   h1.display-4 {
     font-size: 1.8rem;
     font-weight: 800;
   }
+
+  .social-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+  }
+
+  .titulo-banner {
+    font-size: 24px;
+    padding: 10px 20px;
+  }
+
 }

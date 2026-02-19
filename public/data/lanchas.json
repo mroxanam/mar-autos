@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "marca": "Lancha",
+        "modelo": "",
+        "anio": 2020,
+        "combustible": "Diesel",
+        "imagen": "/lancha.jpg",
+        "images": [
+            "/autos/lancha-frente.jpg",
+            "/autos/lancha-costado.jpg"
+        ]
+    }
+]

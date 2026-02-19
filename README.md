@@ -19,27 +19,27 @@ Para trabajar en este proyecto, necesitas tener instalado:
 La base del proyecto se generó con el siguiente comando:
 ```bash
 npx create-react-app mar-autos
-Usa el código con precaución.
+
 
 3. Instalación de Dependencias Adicionales
 Una vez creada la base, se instalaron las librerías necesarias para el diseño y funcionalidad:
 bash
 npm install bootstrap react-bootstrap react-icons react-router-dom framer-motion yet-another-react-lightbox react-transition-group
-Usa el código con precaución.
+
 
 🚀 Comandos de Ejecución
 Para Desarrollo Local
 Si quieres ver los cambios mientras programas:
 bash
 npm start
-Usa el código con precaución.
+
 
 La app se abrirá en http://localhost:3000.
 Para Producción (Build)
 Antes de subir a cualquier servidor manual, se genera la versión optimizada con:
 bash
 npm run build
-Usa el código con precaución.
+
 
 🔄 Flujo de Trabajo y Actualización (Vercel)
 El proyecto está configurado con Integración Continua. Esto significa que Vercel vigila tu repositorio de GitHub y actualiza la web automáticamente cuando detecta un cambio.
@@ -50,7 +50,7 @@ bash
 git add .
 git commit -m "Descripción del cambio realizado"
 git push origin main
-Usa el código con precaución.
+
 
 📸 Notas sobre Archivos y Rutas
 Para evitar errores en la visualización de fotos en Vercel:

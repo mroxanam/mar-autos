@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "marca": "Volkswagen",
+        "modelo": "Cady-VENDIDO-",
+        "anio": 1999,
+        "combustible": "Diesel",
+        "imagen": "/volkswagencady.jpg",
+        "images": [
+            "/camionetas/volkswagencady.jpg",
+            "/camionetas/volkswagencady-costado.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "marca": "Chevrolet",
+        "modelo": "S10",
+        "anio": 2006,
+        "combustible": "Diesel",
+        "imagen": "/chevrolets10.jpg",
+        "images": [
+            "/camionetas/chevrolets10.jpg",
+            "/camionetas/chevrolets10-costado.jpg",
+            "/camionetas/chevrolets10-costadod.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "marca": "Chevrolet",
+        "modelo": "Montana",
+        "anio": 2011,
+        "combustible": "Nafta",
+        "imagen": "/chevroletmontana.jpg",
+        "images": [
+            "/camionetas/chevroletmontana.jpg",
+            "/camionetas/chevroletmontana-costado.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "marca": "Dodge",
+        "modelo": "Ram 1500",
+        "anio": 2014,
+        "combustible": "Nafta,Gnc",
+        "imagen": "/ram-frente.jpg",
+        "images": [
+            "/camionetas/ram-costado.jpg",
+            "/camionetas/ram-costado-.jpg",
+            "/camionetas/ram-atras.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "marca": "Toyota",
+        "modelo": "Hilux-3.0-TDI-4x4-VENDIDO-",
+        "anio": 2014,
+        "combustible": "Diesel",
+        "imagen": "/toyota-azul-frente.jpg",
+        "images": [
+            "/camionetas/toyota-azul-costado.jpg",
+            "/camionetas/toyota-azul-costado-.jpg",
+            "/camionetas/toyota-azul-atras.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "marca": "Toyota",
+        "modelo": "Hilux-2.8-TDI-4x4-",
+        "anio": 2015,
+        "combustible": "Diesel",
+        "imagen": "/toyota-blanca-frente.jpg",
+        "images": [
+            "/camionetas/toyota-blanca-costado.jpg",
+            "/camionetas/toyota-blanca-costado-.jpg",
+            "/camionetas/toyota-blanca-atras.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "marca": "Ford",
+        "modelo": "Ranger-3.2 XLT",
+        "anio": 2016,
+        "combustible": "Diesel",
+        "imagen": "/fordranger-frente.jpg",
+        "images": [
+            "/camionetas/fordranger-frente.jpg",
+            "/camionetas/fordranger-costado.jpg",
+            "/camionetas/fordranger-atras.jpg",
+            "/camionetas/fordranger-motor.jpg"
+        ]
+    }
+]

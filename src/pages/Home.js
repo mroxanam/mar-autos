@@ -1,32 +1,52 @@
 import autopantalla from "../assets/images/autopantalla.png";
-import { Link } from "react-router-dom"; // Importamos Link para que no recargue la página
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="container d-flex flex-column justify-content-center align-items-center text-center min-vh-100">
-      
-      {/* Contenedor de la imagen */}
+
+      {/* Imagen */}
       <div style={{ maxWidth: "600px" }}>
         <img
           src={autopantalla}
           alt="Auto de exhibición Mar Autos"
-          // Mantenemos tus clases: portada-img es la que definimos en App.css
           className="img-fluid rounded mx-auto d-block portada-img shadow-lg"
         />
       </div>
 
-      {/* Texto de bienvenida */}
+      {/* Texto */}
       <h1 className="display-4 mt-4 fw-bold text-dark">
         Bienvenido a Automotores Ramos
       </h1>
+
       <p className="lead text-secondary">
-        La mejor selección de autos usados en un solo lugar.
+        La mejor selección de vehículos usados en un solo lugar.
       </p>
-      
-      {/* CORRECCIÓN: Cambiamos <a> por <Link> para que navegue rápido en el celu */}
-      <Link to="/autos" className="btn btn-primary btn-lg mt-3 px-5 shadow">
-        Ver Catálogo
-      </Link>
+
+      {/* Botones */}
+      <div className="d-flex flex-wrap justify-content-center gap-3 mt-4">
+
+        <Link to="/autos" className="btn btn-primary btn-lg px-4 shadow">
+          Autos
+        </Link>
+
+        <Link to="/camionetas" className="btn btn-primary btn-lg px-4 shadow">
+          Camionetas
+        </Link>
+
+        <Link to="/motos" className="btn btn-primary btn-lg px-4 shadow">
+          Motos
+        </Link>
+
+        <Link to="/cuatriciclos" className="btn btn-primary btn-lg px-4 shadow">
+          Cuatriciclos
+        </Link>
+
+        <Link to="/lancha" className="btn btn-primary btn-lg px-4 shadow">
+          Lanchas
+        </Link>
+
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "marca": "Renault",
-    "modelo": "Sandero Stepway",
+    "modelo": "Sandero Stepway-VENDIDO-",
     "anio": 2014,
     "combustible": "Nafta y GNC",
     "imagen": "/renaultsandero.jpg",
@@ -31,18 +31,6 @@
   },
   {
     "id": 3,
-    "marca": "Volkswagen",
-    "modelo": "Cady",
-    "anio": 1999,
-    "combustible": "Diesel",
-    "imagen": "/volkswagencady.jpg",
-    "images": [
-      "/autos/volkswagencady.jpg",
-      "/autos/volkswagencady-costado.jpg"
-    ]
-  },
-  {
-    "id": 4,
     "marca": "Peugeot",
     "modelo": "208 -VENDIDO-",
     "anio": 2014,
@@ -54,45 +42,7 @@
     ]
   },
   {
-    "id": 5,
-    "marca": "Chevrolet",
-    "modelo": "S10",
-    "anio": 2006,
-    "combustible": "Diesel",
-    "imagen": "/chevrolets10.jpg",
-    "images": [
-      "/autos/chevrolets10.jpg",
-      "/autos/chevrolets10-costado.jpg",
-      "/autos/chevrolets10-costadod.jpg"
-    ]
-  },
-  {
-    "id": 6,
-    "marca": "Fiat",
-    "modelo": "Argo",
-    "anio": 2020,
-    "combustible": "Nafta y GNC",
-    "imagen": "/fiatargo.jpg",
-    "images": [
-      "/autos/fiatargo.jpg",
-      "/autos/fiatargo-atras.jpg",
-      "/autos/fiatargo-costado.jpg"
-    ]
-  },
-  {
-    "id": 7,
-    "marca": "Chevrolet",
-    "modelo": "Montana",
-    "anio": 2011,
-    "combustible": "Nafta",
-    "imagen": "/chevroletmontana.jpg",
-    "images": [
-      "/autos/chevroletmontana.jpg",
-      "/autos/chevroletmontana-costado.jpg"
-    ]
-  },
-  {
-    "id": 8,
+    "id": 4,
     "marca": "Peugeot",
     "modelo": "408 Triptonic",
     "anio": 2012,
@@ -104,7 +54,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 5,
     "marca": "Ford",
     "modelo": "Ka",
     "anio": 2008,
@@ -113,6 +63,45 @@
     "images": [
       "/autos/FordKa-costado.jpg",
       "/autos/FordKa-interior.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "marca": "Volkswagen",
+    "modelo": "Fox",
+    "anio": 2006,
+    "combustible": "Nafta,Gnc",
+    "imagen": "/fox-frente-costado.jpg",
+    "images": [
+      "/autos/fox-costado.jpg",
+      "/autos/fox-costado-.jpg",
+      "/autos/fox-atras.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "marca": "Volkswagen",
+    "modelo": "The Beetle 1.4 t dsg",
+    "anio": 2015,
+    "combustible": "Nafta",
+    "imagen": "/beetle-frente.jpg",
+    "images": [
+      "/autos/beetle-atras-.jpg",
+      "/autos/beetle-frente.jpg",
+      "/autos/beetle-atra-.jpg",
+      "/autos/beetle-interior.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "marca": "Honda",
+    "modelo": "Genesis Coupe 3.8 V6",
+    "anio": 2011,
+    "combustible": "Nafta",
+    "imagen": "/genesis-frente.jpg",
+    "images": [
+      "/autos/genesis-frente.jpg",
+      "/autos/vento-costado.jpg"
     ]
   }
 ]
