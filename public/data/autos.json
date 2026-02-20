@@ -103,5 +103,59 @@
       "/autos/genesis-frente.jpg",
       "/autos/vento-costado.jpg"
     ]
+  },
+  {
+    "id": 9,
+    "marca": "Peugeot 1.9",
+    "modelo": "207",
+    "anio": 2009,
+    "combustible": "Diesel",
+    "imagen": "/peugeot207-frente.jpg",
+    "images": [
+      "/autos/peugeot207-frente.jpg",
+      "/autos/peugeot207-costado.jpg",
+      "/autos/peugeot207-atras.jpg",
+      "/autos/peugeot207-interior.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "marca": "Toyota",
+    "modelo": "Corolla xei",
+    "anio": 2013,
+    "combustible": "Nafta",
+    "imagen": "/toyota-corolla-costadoi.jpg",
+    "images": [
+      "/autos/toyota-corolla-costado.jpg",
+      "/autos/toyota-corolla-atras.jpg",
+      "/autos/toyota-corolla-interior.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "marca": "Citroen",
+    "modelo": "C4",
+    "anio": 2009,
+    "combustible": "Nafta",
+    "imagen": "/citroenC4-frente.jpg",
+    "images": [
+      "/autos/citroenC4-frente.jpg",
+      "/autos/citroenC4-costado.jpg",
+      "/autos/citroenC4-atras.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "marca": "Chevrolet",
+    "modelo": "Corsa 3 puertas",
+    "anio": 2010,
+    "combustible": "Nafta y GNC",
+    "imagen": "/chevroletcorsa-frente.jpg",
+    "images": [
+      "/autos/chevroletcorsa-frente.jpg",
+      "/autos/chevroletcorsa-costado.jpg",
+      "/autos/chevroletcorsa-atras.jpg",
+      "/autos/chevroletcorsa-motor.jpg"
+    ]
   }
 ]
