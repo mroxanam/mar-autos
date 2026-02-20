@@ -95,11 +95,11 @@
         "modelo": "Saveiro doble cabina",
         "anio": 2018,
         "combustible": "Nafta y Gnc",
-        "imagen": "/volkswagen-saveiro-frente.jpg",
+        "imagen": "/volkswagensaveiro-frente.jpg",
         "images": [
-            "/camionetas/volkswagen-saveiro-costado.jpg",
-            "/camionetas/volkswagen-saveiro-costadod.jpg",
-            "/camionetas/volkswagen-saveiro-frente.jpg"
+            "/camionetas/volkswagensaveiro-costado.jpg",
+            "/camionetas/volkswagensaveiro-costadod.jpg",
+            "/camionetas/volkswagensaveiro-frente.jpg"
         ]
     }
 ]
