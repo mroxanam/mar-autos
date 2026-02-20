@@ -59,7 +59,7 @@
     "modelo": "Ka",
     "anio": 2008,
     "combustible": "Nafta",
-    "imagen": "/FordKa-frente.jpg",
+    "imagen": "/autos/FordKa-frente.jpg",
     "images": [
       "/autos/FordKa-costado.jpg",
       "/autos/FordKa-interior.jpg"
@@ -71,7 +71,7 @@
     "modelo": "Fox",
     "anio": 2006,
     "combustible": "Nafta,Gnc",
-    "imagen": "/fox-frente-costado.jpg",
+    "imagen": "/autos/fox-frente-costado.jpg",
     "images": [
       "/autos/fox-costado.jpg",
       "/autos/fox-costado-.jpg",
@@ -84,7 +84,7 @@
     "modelo": "The Beetle 1.4 t dsg",
     "anio": 2015,
     "combustible": "Nafta",
-    "imagen": "/beetle-frente.jpg",
+    "imagen": "/autos/beetle-frente.jpg",
     "images": [
       "/autos/beetle-atras-.jpg",
       "/autos/beetle-frente.jpg",
@@ -98,7 +98,7 @@
     "modelo": "Genesis Coupe 3.8 V6",
     "anio": 2011,
     "combustible": "Nafta",
-    "imagen": "/genesis-frente.jpg",
+    "imagen": "/autos/genesis-frente.jpg",
     "images": [
       "/autos/genesis-frente.jpg",
       "/autos/vento-costado.jpg"
@@ -110,7 +110,7 @@
     "modelo": "207",
     "anio": 2009,
     "combustible": "Diesel",
-    "imagen": "/peugeot207-frente.jpg",
+    "imagen": "/autos/peugeot207-frente.jpg",
     "images": [
       "/autos/peugeot207-frente.jpg",
       "/autos/peugeot207-costado.jpg",
@@ -124,7 +124,7 @@
     "modelo": "Corolla xei",
     "anio": 2013,
     "combustible": "Nafta",
-    "imagen": "/toyotacorolla-costado.jpg",
+    "imagen": "/autos/toyotacorolla-costado.jpg",
     "images": [
       "/autos/toyotacorolla-costadoi.jpg",
       "/autos/toyotacorolla-atras.jpg",
@@ -137,7 +137,7 @@
     "modelo": "C4",
     "anio": 2009,
     "combustible": "Nafta",
-    "imagen": "/citroenC4-frente.jpg",
+    "imagen": "/autos/citroenC4-frente.jpg",
     "images": [
       "/autos/citroenC4-frente.jpg",
       "/autos/citroenC4-costado.jpg",
@@ -150,7 +150,7 @@
     "modelo": "Corsa 3 puertas",
     "anio": 2010,
     "combustible": "Nafta y GNC",
-    "imagen": "/chevroletcorsa-frente.jpg",
+    "imagen": "/autos/chevroletcorsa-frente.jpg",
     "images": [
       "/autos/chevroletcorsa-frente.jpg",
       "/autos/chevroletcorsa-costado.jpg",
