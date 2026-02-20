@@ -5,7 +5,7 @@
         "modelo": "Tornado",
         "anio": 1999,
         "combustible": "Nafta",
-        "imagen": "/honda-tornado-frente.jpg",
+        "imagen": "/motos/honda-tornado-frente.jpg",
         "images": [
             "/motos/honda-tornado-frente.jpg",
             "/motos/honda-tornado-costado.jpg",
@@ -18,7 +18,7 @@
         "modelo": "DOMINAL-400-",
         "anio": 2014,
         "combustible": "Nafta",
-        "imagen": "/bajaj-dominal-frente.jpg",
+        "imagen": "/motos/bajaj-dominal-frente.jpg",
         "images": [
             "/motos/bajaj-dominal-frente.jpg",
             "/motos/bajaj-dominal-costadod.jpg",

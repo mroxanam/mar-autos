@@ -5,10 +5,10 @@
         "modelo": "",
         "anio": 2020,
         "combustible": "Diesel",
-        "imagen": "/lancha.jpg",
+        "imagen": "/lanchas/lancha.jpg",
         "images": [
-            "/autos/lancha-frente.jpg",
-            "/autos/lancha-costado.jpg"
+            "/lanchas/lancha-frente.jpg",
+            "/lanchas/lancha-costado.jpg"
         ]
     }
 ]
