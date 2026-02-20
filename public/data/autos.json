@@ -124,11 +124,11 @@
     "modelo": "Corolla xei",
     "anio": 2013,
     "combustible": "Nafta",
-    "imagen": "/toyota-corolla-costadoi.jpg",
+    "imagen": "/toyotacorolla-frente.jpg",
     "images": [
-      "/autos/toyota-corolla-costado.jpg",
-      "/autos/toyota-corolla-atras.jpg",
-      "/autos/toyota-corolla-interior.jpg"
+      "/autos/toyotacorolla-costado.jpg",
+      "/autos/toyotacorolla-atras.jpg",
+      "/autos/toyotacorolla-interior.jpg"
     ]
   },
   {
