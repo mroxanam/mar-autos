@@ -47,7 +47,7 @@
     "modelo": "408 Triptonic",
     "anio": 2012,
     "combustible": "Nafta",
-    "imagen": "/peugeot408-costadoI.jpg",
+    "imagen": "/autos/peugeot408-costadoI.jpg",
     "images": [
       "/autos/peugeot408-atras.jpg",
       "/autos/peugeot408-costado.jpg"
@@ -71,7 +71,7 @@
     "modelo": "Fox",
     "anio": 2006,
     "combustible": "Nafta,Gnc",
-    "imagen": "/autos/fox-frente-costado.jpg",
+    "imagen": "/autos/fox-costado-.jpg",
     "images": [
       "/autos/fox-costado.jpg",
       "/autos/fox-costado-.jpg",
@@ -101,7 +101,7 @@
     "imagen": "/autos/genesis-frente.jpg",
     "images": [
       "/autos/genesis-frente.jpg",
-      "/autos/vento-costado.jpg"
+      "/autos/genesis-costado.jpg"
     ]
   },
   {
