@@ -77,8 +77,8 @@
     },
     {
         "id": 7,
-        "marca": "Ford",
-        "modelo": "Ranger 3.2 XLT",
+        "marca":"Ford",
+        "modelo":"Ranger 3.2 XLT",
         "anio": 2016,
         "combustible": "Diesel",
         "imagen": "/camionetas/fordranger-frente.jpg",
