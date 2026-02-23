@@ -157,5 +157,18 @@
       "/autos/chevroletcorsa-atras.jpg",
       "/autos/chevroletcorsa-motor.jpg"
     ]
+  },
+  {
+    "id": 13,
+    "marca": "Chevrolet ",
+    "modelo": "Aveo",
+    "anio": 2011,
+    "combustible": "Nafta y GNC",
+    "imagen": "/autos/chevroletaveo-frente.jpg",
+    "images": [
+      "/autos/chevroletaveo-frente.jpg",
+      "/autos/chevroletaveo-costado.jpg",
+      "/autos/chevroletaveo-atras.jpg"
+    ]
   }
 ]

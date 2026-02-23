@@ -80,7 +80,7 @@
         "marca":"Ford",
         "modelo":"Ranger 3.2 XLT",
         "anio": 2016,
-        "combustible": "Diesel",
+        "combustible":"Diesel",
         "imagen": "/camionetas/fordranger-frente.jpg",
         "images": [
             "/camionetas/fordranger-frente.jpg",
