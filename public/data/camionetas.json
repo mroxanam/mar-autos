@@ -74,19 +74,19 @@
             "/camionetas/toyota-blanca-costado-.jpg",
             "/camionetas/toyota-blanca-atras.jpg"
         ]
-    },
+    }
+    ,
     {
         "id": 7,
-        "marca":"Ford",
-        "modelo":"Ranger 3.2 XLT",
+        "marca": "Ford",
+        "modelo": "Ranger-3.2xlt",
         "anio": 2016,
-        "combustible":"Diesel",
+        "combustible": "Diesel",
         "imagen": "/camionetas/fordranger-frente.jpg",
         "images": [
-            "/camionetas/fordranger-frente.jpg",
             "/camionetas/fordranger-costado.jpg",
-            "/camionetas/fordranger-atras.jpg",
-            "/camionetas/fordranger-motor.jpg"
+            "/camionetas/fordranger-costadod.jpg",
+            "/camionetas/fordranger-atras.jpg"
         ]
     },
     {
