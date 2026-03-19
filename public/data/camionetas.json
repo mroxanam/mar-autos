@@ -74,8 +74,7 @@
             "/camionetas/toyota-blanca-costado-.jpg",
             "/camionetas/toyota-blanca-atras.jpg"
         ]
-    }
-    ,
+    },
     {
         "id": 7,
         "marca": "Ford",
@@ -101,6 +100,18 @@
             "/camionetas/volkswagensaveiro-costado.jpg",
             "/camionetas/volkswagensaveiro-costadod.jpg",
             "/camionetas/volkswagensaveiro-frente.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "marca": "Ford",
+        "modelo": "Ecoesport xls",
+        "anio": 2005,
+        "combustible": "Nafta y GNC",
+        "imagen": "/camionetas/fordeco-costado.jpg",
+        "images": [
+            "/camionetas/fordeco-costado-.jpg",
+            "/camionetas/fordeco-atras.jpg"
         ]
     }
 ]

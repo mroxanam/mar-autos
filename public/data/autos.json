@@ -170,5 +170,18 @@
       "/autos/chevroletaveo-costado.jpg",
       "/autos/chevroletaveo-atras.jpg"
     ]
+  },
+  {
+    "id": 14,
+    "marca": "Fiat",
+    "modelo": "Cronos",
+    "anio": 2019,
+    "combustible": "Nafta y GNC",
+    "imagen": "/autos/fiatcronos-frente.jpg",
+    "images": [
+      "/autos/fiatcronos-frente.jpg",
+      "/autos/fiatcronos-costado.jpg",
+      "/autos/fiatcronos-atras.jpg"
+    ]
   }
 ]
