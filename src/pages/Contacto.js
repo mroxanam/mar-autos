@@ -8,7 +8,7 @@ import {
 
  function Contacto() {
   const whatsappNumber = "5493548591003";
-  const whatsappVisible = "03548 15-591003";
+  const whatsappVisible = "3548-591003";
   const email = "automotoresramos@gmail.com";
 
   const mensajeWhatsapp = encodeURIComponent(
@@ -118,9 +118,7 @@ import {
         </p>
       </div>
 
-      <footer className="mt-4 text-muted small">
-        © 2025 Automotores Ramos - Todos los derechos reservados
-      </footer>
+      
     </Container>
   );
 }

@@ -1,4 +1,16 @@
-[
+[{
+        "id": 1,
+        "marca": "Honda",
+        "modelo": "CRV-EX",
+        "anio": 2007,
+        "combustible": "Nafta-Gas",
+        "imagen": "/camionetas/hondacrvfrente.jpg",
+        "images": [
+            "/camionetas/hondacrvcostado.jpg",
+            "/camionetas/hondacrvfrente.jpg",
+             "/camionetas/hondacrvcostadod.jpg"
+        ]
+    },
     {
         "id": 1,
         "marca": "Volkswagen",
@@ -14,7 +26,7 @@
     {
         "id": 2,
         "marca": "Chevrolet",
-        "modelo": "S10",
+        "modelo": "S10-VENDIDO-",
         "anio": 2006,
         "combustible": "Diesel",
         "imagen": "/camionetas/chevrolets10.jpg",
@@ -27,7 +39,7 @@
     {
         "id": 3,
         "marca": "Chevrolet",
-        "modelo": "Montana",
+        "modelo": "Montana-VENDIDO-",
         "anio": 2011,
         "combustible": "Nafta",
         "imagen": "/camionetas/chevroletmontana.jpg",
@@ -92,7 +104,7 @@
     {
         "id": 8,
         "marca": "Volkswagen",
-        "modelo": "Saveiro doble cabina",
+        "modelo": "Saveiro doble cabina-VENDIDO-",
         "anio": 2018,
         "combustible": "Nafta y Gnc",
         "imagen": "/camionetas/volkswagensaveiro-frente.jpg",
@@ -105,13 +117,27 @@
     {
         "id": 9,
         "marca": "Ford",
-        "modelo": "Ecoesport xls",
+        "modelo": "Ecoesport xls-VENDIDO-",
         "anio": 2005,
         "combustible": "Nafta y GNC",
         "imagen": "/camionetas/fordeco-costado.jpg",
         "images": [
             "/camionetas/fordeco-costado-.jpg",
             "/camionetas/fordeco-atras.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "marca": "Ford",
+        "modelo": "Ecoesport xls",
+        "anio": 2005,
+        "combustible": "Nafta y GNC",
+        "imagen": "/camionetas/fordecofrente.jpg",
+        "images": [
+            "/camionetas/fordecocostado.jpg",
+            "/camionetas/fordecoatras.jpg",
+             "/camionetas/fordecofrente.jpg",
+             "/camionetas/fordecoatrasd.jpg"
         ]
     }
 ]
