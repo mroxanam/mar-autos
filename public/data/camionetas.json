@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": 1,
         "marca": "Honda",
         "modelo": "CRV-EX",
@@ -6,9 +7,9 @@
         "combustible": "Nafta-Gas",
         "imagen": "/camionetas/hondacrvfrente.jpg",
         "images": [
-            "/camionetas/hondacrvcostado.jpg",
             "/camionetas/hondacrvfrente.jpg",
-             "/camionetas/hondacrvcostadod.jpg"
+            "/camionetas/hondacrvcostado.jpg",
+            "/camionetas/hondacrvcostadod.jpg"
         ]
     },
     {
@@ -95,10 +96,10 @@
         "combustible": "Diesel",
         "imagen": "/camionetas/fordranger-frente.jpg",
         "images": [
+            "/camionetas/fordranger-frente.jpg",
             "/camionetas/fordranger-costado.jpg",
             "/camionetas/fordranger-costadod.jpg",
-            "/camionetas/fordranger-atras.jpg",
-            "/camionetas/fordranger-frente.jpg"
+            "/camionetas/fordranger-atras.jpg"
         ]
     },
     {
@@ -136,8 +137,8 @@
         "images": [
             "/camionetas/fordecocostado.jpg",
             "/camionetas/fordecoatras.jpg",
-             "/camionetas/fordecofrente.jpg",
-             "/camionetas/fordecoatrasd.jpg"
+            "/camionetas/fordecofrente.jpg",
+            "/camionetas/fordecoatrasd.jpg"
         ]
     }
 ]

@@ -183,5 +183,19 @@
       "/autos/chevroletaveo-costado.jpg",
       "/autos/chevroletaveo-atras.jpg"
     ]
+  },
+  {
+    "id": 14,
+    "marca": "Peugeot",
+    "modelo": "",
+    "anio": 2009,
+    "combustible": "Nafta",
+    "imagen": "/autos/peugeot-frente.jpg",
+    "images": [
+      "/autos/peugeot-frente.jpg",
+      "/autos/peugeot-atrasd.jpg",
+      "/autos/peugeot-costado.jpg",
+      "/autos/peugeot-atras.jpg"
+    ]
   }
 ]
